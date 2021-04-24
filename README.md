@@ -8,6 +8,7 @@
 
 /api/all - historia dram
 
+/api/{id} - pokazuje drame o danym id 
 
 ### post methods
 
