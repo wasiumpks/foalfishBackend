@@ -16,22 +16,42 @@ public class Drama {
 
     private String hMD;
 
+    private String zkim;
+
+    private String powod;
+
     public Drama() {
     }
 
     public Long getId() {
-        return this.id;
+        return id;
     }
 
     public void setId(Long id) {
         this.id = id;
     }
 
-    public String getHMD() {
+    public String gethMD() {
         return hMD;
     }
 
-    public void setHMD(String howManyDaysFromLastDrama) {
-        this.hMD = howManyDaysFromLastDrama;
+    public void sethMD(String hMD) {
+        this.hMD = hMD;
+    }
+
+    public String getZkim() {
+        return zkim;
+    }
+
+    public void setZkim(String zkim) {
+        this.zkim = zkim;
+    }
+
+    public String getPowod() {
+        return powod;
+    }
+
+    public void setPowod(String powod) {
+        this.powod = powod;
     }
 }
